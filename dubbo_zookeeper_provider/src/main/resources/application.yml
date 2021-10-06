@@ -1,0 +1,19 @@
+#spring:
+#  dubbo:
+#    scan: com.zookeeper
+#    protocol:
+#      name: dubbo
+#      port: 20881
+#    server: true
+#    registry:
+#      protocol: zookeeper_demo
+#      address: 192.168.16.129:2181
+#    application:
+#      id: dubbo-zookeeper-provider
+#      name: dubbo-zookeeper-provider
+#spring:
+#  dubbo:
+#    protocol:
+#      name: zookeeper_demo
+#    registry:
+#      address: 192.168.16.129:2181
